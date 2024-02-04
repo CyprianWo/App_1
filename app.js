@@ -27,9 +27,7 @@ app.use('/users', usersRouter);
 app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
-app.listen(port, () => {
-  console.log(`Aplikacja działa na porcie ${port}`);
-});
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
